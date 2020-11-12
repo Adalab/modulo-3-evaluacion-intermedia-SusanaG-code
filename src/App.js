@@ -87,6 +87,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        Mi lista de Pokemon
         <PokeList data={dataPokemon}></PokeList>
       </header>
     </div>

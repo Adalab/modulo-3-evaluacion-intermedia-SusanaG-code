@@ -1,7 +1,19 @@
 .card {
   border: solid red 4px;
+  border-radius: 15px;
 }
 
 .listType {
   list-style-type: none;
+  display: flex;
+}
+
+.types {
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.title {
+  border: red 3px solid;
 }

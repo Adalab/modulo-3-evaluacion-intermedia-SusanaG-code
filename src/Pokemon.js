@@ -3,22 +3,20 @@ import "./Pokemon.scss";
 
 class Pokemons extends React.Component {
   render() {
-    const TypesPokemon = this.props.types.map((eachPokemon) => (
-      <li>{eachPokemon}</li>
+    const TypesPokemon = this.props.types.map((eachPokemon, index) => (
+      <li className="types" key={index}>
+        {eachPokemon}
+      </li>
     ));
-    console.log(TypesPokemon.types);
 
     return (
       <article className="card">
-        <img src={this.props.img} alt=""></img>
-        <h3>{this.props.name}</h3>
-        <ul className="listType">
-          <li>{TypesPokemon}</li>
-        </ul>
+        <img src={this.props.img} alt="Pokemon"></img>
+        <h3 className="title">{this.props.name}</h3>
+        <ul className="listType">{TypesPokemon}</ul>
       </article>
     );
   }
 }
 
-Pokemons.propTypes = {};
 export default Pokemons;

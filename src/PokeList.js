@@ -6,11 +6,10 @@ import "./PokeList.scss";
 class PokeList extends React.Component {
   //this.props.data
 
-  //recorro con map
-
   render() {
     const arrayPokemon = this.props.data.map((eachPokemon) => (
       <Pokemon
+        key={eachPokemon.id}
         name={eachPokemon.name}
         img={eachPokemon.url}
         types={eachPokemon.types}
@@ -21,5 +20,4 @@ class PokeList extends React.Component {
   }
 }
 
-PokeList.propTypes = {};
 export default PokeList;
