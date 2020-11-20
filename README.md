@@ -1,4 +1,5 @@
 Módulo 3: Ejercicio de evaluación intermedia
+
 El ejercicio consiste en desarrollar una página web sencilla con React.
 
 Antes de empezar, tenéis que crear un nuevo repositorio en GitHub desde GitHub Classroom usando este enlace. Una vez creado, lo clonaremos en nuestro ordenador y en la carpeta creada empezaremos a trabajar en el ejercicio.
