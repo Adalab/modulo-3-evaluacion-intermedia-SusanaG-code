@@ -2,9 +2,12 @@ Módulo 3: Ejercicio de evaluación intermedia
 
 El ejercicio consiste en desarrollar una página web sencilla con React.
 
-Antes de empezar, tenéis que crear un nuevo repositorio en GitHub desde GitHub Classroom usando este enlace: https://classroom.github.com/assignment-invitations/41bc49def453a80d9c4192a9cd267a25/status. Una vez creado, lo clonaremos en nuestro ordenador y en la carpeta creada empezaremos a trabajar en el ejercicio.
+Antes de empezar, tenéis que crear un nuevo repositorio en GitHub desde GitHub Classroom usando este enlace. Una vez creado, lo clonaremos en nuestro ordenador y en la carpeta creada empezaremos a trabajar en el ejercicio.
+
+https://raw.github.com/Adalab/modulo-3-evaluacion-intermedia-mgarvia/blob/master/my-react-project/src/images/img-reademe-png
 
 La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. La información de los pokemon la obtenemos de un array de datos que incluiremos en el estado del componente App.
+
 [
     {
         "id": 1,
