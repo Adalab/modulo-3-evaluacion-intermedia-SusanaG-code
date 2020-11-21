@@ -1,7 +1,7 @@
-import React, { useState } from "./react";
+import React, { useState } from "react";
 import "./App.scss";
 import PokeList from "./PokeList";
-import Data from "./data/Pokemon.json";
+import Data from ".././data/Pokemon.json";
 
 function App() {
   const [data] = useState(Data);

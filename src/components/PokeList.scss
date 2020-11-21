@@ -1,6 +1,7 @@
 .boxList {
   grid-gap: 40px;
   display: grid;
+  background-color: beige;
   grid-template-columns: 1fr;
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
